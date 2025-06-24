@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: bhass9624/devopsapp:dbimage
+          image: bhass9624/main:dbimage
           ports:
             - containerPort: 3306
       imagePullSecrets:
